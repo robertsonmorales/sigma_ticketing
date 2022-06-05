@@ -1,0 +1,17 @@
+main{
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100% !important;
+    
+    @import 'main/header';
+
+    @import 'main/breadcrumb';
+
+    @import 'main/content';
+
+    @import 'main/forms';
+
+    @import 'main/modal';
+
+    @import 'main/my_account';
+}  

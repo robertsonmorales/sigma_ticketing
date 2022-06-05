@@ -1,0 +1,42 @@
+.header{
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+    .breadcrumb-section{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-bottom: -1px;
+
+        .breadcrumb-items{
+            margin-right: 5px;
+            font-weight: 500;
+            font-size: .9em;
+            position: relative;
+
+            .chevrons-right{
+                .feather{
+                    width: 14px;
+                    height: 14px;
+                }
+            }
+
+            a{
+                text-decoration: none;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+
+            &:last-child{
+                display: none;
+            }
+        }
+    }
+
+    h3{
+        color: $dark;
+    }
+}

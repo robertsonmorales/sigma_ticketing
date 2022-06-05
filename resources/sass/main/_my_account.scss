@@ -1,0 +1,22 @@
+.account-sidebar{
+    overflow: hidden;
+    padding: 15px 0;
+    @extend .glassmorphism;
+}
+
+.profile-preview{
+    #image-preview{
+        object-fit: cover;
+        width: 80px;
+        height: 80px;
+        border: $border;
+        border-radius: $img-radius;
+    }
+}
+
+.btn-profile-image{
+    position: absolute;
+    bottom: 0px;
+    left: 60px;
+    border: $border;
+}

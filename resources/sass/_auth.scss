@@ -1,0 +1,28 @@
+.auth-card{
+    overflow: hidden;
+
+    .card{
+        @extend .glassmorphism;
+
+        .inputs > label{
+            color: $dark;
+            font-size: .9em !important;
+            margin-bottom: 2px;
+        }
+    
+        .form-control{
+            padding-left: 35px !important;
+            border-radius: $radius !important;
+
+            &:focus{
+                font-weight: 500;
+            }
+        }
+        
+        .icon{
+            top: 6px !important;
+            left: 25px !important;
+            color: $default;
+        }
+    }
+}
