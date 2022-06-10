@@ -11,6 +11,8 @@ class Ticket extends Model
 {
     use HasFactory;
 
+    protected $table = "tickets";
+
     public function ticketType() : \Illuminate\Database\Eloquent\Relations\BelongsTo {
         return $this->belongsTo(
             TicketType::class, 'tickets_ticket_type_id', 'ticket_type_id'
